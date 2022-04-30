@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, SQL, HCI, homework, human, computer, interaction"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/scholarly.css" />
+    <title>Scholarly HTML</title>
+  </head>
+  <body
+    prefix="schema: https://schema.org/ sa: https://ns.science.ai/ xsd: http://www.w3.org/2001/XMLSchema#"
+    itemscope=""
+  >
+    <article
+      prefix="sa:https://ns.science.ai/"
+      typeof="schema:ScholarlyArticle"
+    >
+      <header>
+        <h1 prefix="schema: https://schema.org/" itemprop="headline">
+          Scholarly HTML Homework - INFOX interaction
+        </h1>
+      </header>
+      <h2>Table of contents</h2>
+      <ul>
+        <li>
+          <a href="#author">Author</a>
+        </li>
+        <li>
+          <a href="#introduction">Introduction</a>
+          <ul>
+            <li><a href="#WIHCI">What is Human-Computer Interaction?</a></li>
+            <li><a href="#WIINFOX">What is INFOX?</a></li>
+            <li><a href="#references">References</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Abstract</a>
+          <ul>
+            <li><a href="#intendedAudience">Intended audience</a></li>
+            <li><a href="#notations">Notations</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#WIUX">UI, UX </a>
+          <ul>
+            <li><a href="#WIUI">What is UI?</a></li>
+            <li><a href="#WIUX">What is UX?</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#humanFactor">Human Factor</a>
+          <ul>
+            <li><a href="#knowingUser">Knowing the user</a></li>
+            <li><a href="#idioms"> Interaction idioms </a></li>
+            <li><a href="#metaphors">Visual metaphors</a></li>
+            <li><a href="#designDecisions">Design decisions</a></li>
+            <li><a href="#fitts">Fitt's Law</a></li>
+            <li><a href="#hicks">Hick's Law</a></li>
+            <li><a href="#steering">Steering Law</a></li>
+            <li><a href="#persona">Persona</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#aspects">Aspects concerning design</a>
+          <ul>
+            <li><a href="#aspectDesign">Design</a></li>
+            <li><a href="#threeClickRule">3-click-rule</a></li>
+            <li><a href="#chromatics">Chromatics</a></li>
+            <li><a href="#designValues">Design Values</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#infoA">Information architecture</a>
+          <ul>
+            <li><a href="#infoOrg">INFOX Information organization</a></li>
+          </ul>
+        </li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+
+      <section>
+        <h2>Author</h2>
+        <ul>
+          <li typeof="sa:ContributorRole" property="schema:author">
+            <span typeof="schema:Person">
+              <meta property="schema:givenName" content="Andrei" />
+              <meta property="schema:familyName" content="Toma" />
+              <span property="schema:name">Andrei Toma</span>
+            </span>
+            <ul>
+              <li
+                property="schema:roleContactPoint"
+                typeof="schema:ContactPoint"
+              >
+                <a
+                  href="mailto:toma1.andrei47@gmail.com"
+                  property="schema:email"
+                  >toma1.andrei47@gmail.com</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2
+          prefix="schema: https://schema.org/"
+          itemprop="headline"
+          id="introduction"
+        >
+          Introduction
+        </h2>
+        <h3 id="WIHCI">What is Human-Computer Interaction?</h3>
+        <p>
+          Human-Computer Interaction (HCI) is a scientific domain that refers to
+          intaction between humans and the computers and the research activity
+          of this field.
+        </p>
+
+        <h3 id="WIINFOX">What is INFOX?</h3>
+        <p>
+          INFOX is a singlepage web aplication, a remake after original web
+          application INFOX (<a href="https://infox.ro" itemprop="url"
+            >infox.ro</a
+          >) whose purpose is to help people to grow their C/C++ skills through
+          solving C/C++ problems created by other users but verified and
+          approved by INFOX admins.
+        </p>
+        <h3 id="references">References</h3>
+        <ul>
+          <li
+            typeof="schema:ScholarlyArticle"
+            resource="https://profs.info.uaic.ro/~busaco/teach/courses/hci/hci-film.html"
+          >
+            <span property="schema:author" typeof="schema:Person">
+              <span property="schema:familyName">Buraga</span>
+              <span property="schema:givenName">Sabin</span>-<span
+                property="schema:additionalName"
+                >Corneliu</span
+              >
+            </span>
+            <cite property="schema:name"
+              >Human-Computer Interaction syllabus.</cite
+            >
+            <span property="schema:isPartOf" typeof="schema:PublicationVolume">
+              <span property="schema:isPartOf" typeof="schema:Periodical">
+                <span property="schema:name">FII UAIC.</span>
+              </span>
+            </span>
+          </li>
+
+          <li
+            typeof="schema:ScholarlyArticle"
+            resource="https://www.impactplus.com/blog/the-psychology-of-design-the-color-green"
+          >
+            <span property="schema:author" typeof="schema:Website">
+              <span property="schema:domain">impactplus.com</span>
+            </span>
+            <cite property="schema:name"
+              >The Psychology of Design: The Color Green.</cite
+            >
+          </li>
+
+          <li
+            typeof="schema:ScholarlyArticle"
+            resource="https://www.verywellmind.com/color-psychology-white-2795822"
+          >
+            <span property="schema:author" typeof="schema:Website">
+              <span property="schema:domain">verywellmind.com</span>
+            </span>
+            <cite property="schema:name">The Color Psychology of White.</cite>
+          </li>
+
+          <li
+            typeof="schema:ScholarlyArticle"
+            resource="https://htmlcolorcodes.com/color-picker/"
+          >
+            <span property="schema:author" typeof="schema:Website">
+              <span property="schema:domain">htmlcolorcodes.com</span>
+            </span>
+            <cite property="schema:name">Color picker and Color harmony.</cite>
+          </li>
+        </ul>
+      </section>
+      <section typeof="sa:Abstract">
+        <h2 id="abstract">Abstract</h2>
+        <h3 id="intendedAudience">Intended audicente</h3>
+        <p>
+          This document is intended to everyone interested in HCI and steps of
+          developement of INFOX UI, both developers and users.
+        </p>
+        <h3 id="notations">Notations</h3>
+        <p>
+          Some word shortcuts will be used during this document. These are:
+          <b>HCI</b>
+          = Human-Computer Interaction, <b>UI</b> = User Interface, <b>UX</b> =
+          User eXperience, <b>SPA</b> = SinglePage Application
+        </p>
+      </section>
+      <section typeof="UI, UX">
+        <h2 id="uiux">UI, UX</h2>
+        <h3 id="WIUI">What is UI?</h3>
+        <p>
+          UI refers to user interface, the medium an user uses to communicate
+          with the app. INFOX UI is user-oriented and it will be discussed in
+          this document.
+        </p>
+        <h3 id="WIUX">What is UX?</h3>
+        <p>
+          UX refers to user experience, the way an user feels and the
+          experiences and the pleasure he has while using the app. Good UX is a
+          consequence of a good UI.
+        </p>
+      </section>
+
+      <section typeof="Human Factor">
+        <h2 id="humanFactor">Human Factor</h2>
+        <h3 id="knowingUser">Knowing the user</h3>
+        <p>
+          All decisions, pictures, way of doing things, information arrangement
+          were made by having an eye on who the user might be. Types of users
+          will be discussed in HTML5 personas documents.
+        </p>
+        <h3 id="idioms">Interaction idioms</h3>
+        <p>
+          An user can find interaction idioms like: menus, forms, choices lists,
+          informative panels, writing areas.
+        </p>
+        <h3 id="metaphors">Visual metaphors</h3>
+        <p>
+          Visual metaphors are present on INFOX. These make users to navigate
+          easily through app by recognizing the image instead of reading the
+          text.
+        </p>
+        <div class="arrangeImages">
+          <figure typeof="sa:image">
+            <img
+              src="./img/brain.png"
+              alt="Fitt's Law Image"
+              itemprop="image"
+              class="image"
+            />
+          </figure>
+          <figure typeof="sa:image">
+            <img
+              src="./img/coin.png"
+              alt="Fitt's Law Image"
+              itemprop="image"
+              class="image"
+            />
+          </figure>
+          <figure typeof="sa:image">
+            <img
+              src="./img/horse.png"
+              alt="Fitt's Law Image"
+              itemprop="image"
+              class="image"
+            />
+          </figure>
+          <figure typeof="sa:image">
+            <img
+              src="./img/pawn.png"
+              alt="Fitt's Law Image"
+              itemprop="image"
+              class="image"
+            />
+          </figure>
+          <figure typeof="sa:image">
+            <img
+              src="./img/tower.png"
+              alt="Fitt's Law Image"
+              itemprop="image"
+              class="image"
+            />
+          </figure>
+        </div>
+        <h3 id="designDecisions" class="clear">Design decisions</h3>
+        <p>
+          Some of design decisions have been made through respect (as much as it
+          could be) of <b>empirical laws</b>: <b>Fitt's law</b>,
+          <b>Hick's law</b>, <b>Steering law</b> and the web developement
+          principles (e.g. responsiveness)
+        </p>
+        <h3 id="fitts">Fitt's Law</h3>
+        <p>
+          This law refers to how fast a user can move the mouse to a specific
+          point with a specific size. Because of big UI components, users can
+          easily navigate through components so Fitt's law obtain good scores
+          (low mouse movement time).
+        </p>
+        <figure typeof="sa:image">
+          <img
+            src="./img/Fitt's law.png"
+            alt="Fitt's Law Image"
+            itemprop="image"
+            class="image"
+          />
+          <figcaption class="figCaptionStyle">
+            <span>Fitt's Law - each "card" is a UI component</span>
+          </figcaption>
+        </figure>
+        <h3 id="hicks">Hick's Law</h3>
+        <p>
+          This law predict the decision time for a user to make a set of
+          choices. Speaking about chapters the problems are splitted into, an
+          average user, could obtain a low score (high decision time) on Hick's
+          law because of the high number of choices.
+        </p>
+        <figure typeof="sa:image">
+          <img
+            src="./img/Hick's law.png"
+            alt="Hick's Law Image"
+            itemprop="image"
+            class="image"
+          />
+          <figcaption class="figCaptionStyle">
+            <span
+              >Hick's Law - all the "cards" look the same, user must read all of
+              them te be sure about a choice</span
+            >
+          </figcaption>
+        </figure>
+        <h3 id="steering">Steering Law</h3>
+        <p>
+          This law refers to how long would take to a user to move the mouse
+          through a path that has "borders". Steering law obtain good scores
+          because of "low number of borders". The only place this law might
+          obtain low scores is when user navigate through a specific problem
+          page, which contains multiple tabs for navigation.
+        </p>
+        <figure typeof="sa:image">
+          <img
+            src="./img/Steering law.png"
+            alt="Steering Law Image"
+            itemprop="image"
+            class="image"
+          />
+          <figcaption class="figCaptionStyle">
+            <span>Steering Law</span>
+          </figcaption>
+        </figure>
+        <h3 id="persona">Persona</h3>
+        <p>
+          Thanks to easy-to-use interface, almost everyone can use INFOX SPA.
+          The people who cannot use this app, are the people that are not
+          familiar with computers, mice and romanian language (the only
+          available language). More about personas in HTML5 personas documents.
+        </p>
+      </section>
+      <section typeof="Aspects Concerning design">
+        <h2 id="aspects">Aspects concerning design</h2>
+        <h3 id="aspectDesign">Design</h3>
+        <p>
+          Speaking about design, INFOX has a <b>user-centred interface</b>. All
+          menus and choices an user could make are as simple as they could be.
+          The UI is friendly with big menu buttons, which make app more
+          user-friendly.
+        </p>
+        <h3 id="threeClickRule">3-click-rule</h3>
+        <p>
+          User has to make only 3 clicks to start solving a problem, and the
+          same number of clicks to update their profile and to view their solved
+          problems list.
+        </p>
+        <h3 id="chromatics">Chromatics</h3>
+        <p>
+          On the first touch with the app, INFOX consists in shades of green - a
+          color proven to make people feel rested and secure (very important
+          feelings in a problem-solving app), white - a color that create
+          feelings of space, simplicity and comfort and black (for darker
+          shades). Background color can be modified by the user through the user
+          profile/settings page. For this has been chosen shades of yellow, blue
+          (primary colors), green, purple (secondary colors) and gray - a simple
+          background color that is less stressful for eyes.
+        </p>
+        <figure typeof="sa:image">
+          <img
+            src="./img/chromatics.png"
+            alt="INFOX chromatics"
+            itemprop="image"
+            class="image"
+          />
+          <figcaption class="figCaptionStyle">
+            <span>INFOX Chromatics</span>
+          </figcaption>
+        </figure>
+        <h3 id="designValues">Design values</h3>
+        <p>
+          INFOX has all three design values: <b>ethical</b> - is not harmful to
+          anyone, <b>purposeful</b> - help users to grow their C/C++ skills and
+          also achieve their goals, <b>elegant</b> - is a simple, complete and
+          elegant design.
+        </p>
+      </section>
+      <section typeof="Information architecture">
+        <h2 id="infoA">Information architecture</h2>
+        <h3 id="infoOrg">INFOX information organization</h3>
+        <p>
+          The organization of information in INFOX is natural, with familiar
+          navigation items (easy to identify by anyone), easy to understand and
+          use lists of components, linear and hierarchical structure of objects
+          list. More on this topic in model, metodologies and design patterns
+          documents.
+        </p>
+      </section>
+      <section typeof="Conclusion">
+        <h2 id="conclusion">Conclusion</h2>
+        <p>
+          INFOX is a problem-solving app that is easy to use (<b
+            >high usability</b
+          >), providing all features an user needs on this type of app (<b
+            >high utility</b
+          >), user-friendly and has a very good user experience. The design is
+          very simple and intuitive, and the user can easily navigate through
+          the app.
+          <br />
+          <strong>
+            The design choices were made with the respect of HCI principles,
+            methods and best practices.
+          </strong>
+        </p>
+      </section>
+    </article>
+  </body>
+</html>
